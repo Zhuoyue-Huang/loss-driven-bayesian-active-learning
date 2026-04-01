@@ -1,0 +1,45 @@
+{
+  "regression": [
+    {
+      "name": "yacht",
+      "dataset": "yacht_hydrodynamics",
+      "prefer": ["openml"],
+      "notes": "Used by experiments.run_reg_data_compare"
+    },
+    {
+      "name": "slump",
+      "dataset": "slump",
+      "version": 2,
+      "prefer": ["openml"]
+    },
+    {
+      "name": "estate",
+      "dataset": 477,
+      "prefer": ["ucimlrepo"],
+      "notes": "UCIML repo id"
+    }
+  ],
+  "classification": [
+    {
+      "name": "vowel",
+      "dataset": "vowel",
+      "version": 2,
+      "prefer": ["openml"]
+    },
+    {
+      "name": "vehicle",
+      "dataset": "vehicle",
+      "prefer": ["ucimlrepo"]
+    },
+    {
+      "name": "landsat",
+      "dataset": "landsat_satellite",
+      "prefer": ["openml"]
+    },
+    {
+      "name": "statlog-german",
+      "dataset": "GermanCredit",
+      "prefer": ["openml"]
+    }
+  ]
+}
